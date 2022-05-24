@@ -1,0 +1,282 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Container{
+  /* float:left;
+  color:red;
+  font-family:Arial;
+    font-weight:bold;
+    font-size:13px;
+
+    display:inline;
+    padding-left:3px;
+    padding-right:3px; */
+  
+}
+
+/* .boton{
+ 
+  list-style-type: none; 
+  
+} */
+ul.pagination{
+  display: inline-block;
+}
+ul.pagination li {
+  float: left;
+}
+ 
+ul{
+  list-style-type: none;
+}
+
+.boton{
+  margin: 3px;
+  color: black;
+  background: transparent;
+  border-radius: 6px;
+}
+
+.boton:hover {
+  background-color: white;
+  color: rgb(17, 16, 16);
+  transition: background-color .3s;
+  font-size: 17px;
+}
+
+.botonSearch{
+  margin: 3px;
+  color: black;
+  background: white;
+  border-radius: 6px;
+}
+
+.botonSearch:hover {
+  background-color: white;
+  color: rgb(17, 16, 16);
+  transition: background-color .3s;
+  font-size: 15px;
+}
+.tem{
+  margin: 3px;
+  color: black;
+  background: transparent;
+  border-radius: 6px;
+  height: 24px;
+ 
+}
+.tem:hover {
+  background-color: white;
+  color: rgb(17, 16, 16);
+  transition: background-color .3s;
+  font-size: 17px;
+}
+.op{
+  margin: 3px;
+  color: black;
+  background: transparent;
+  border-radius: 6px;
+  height: 24px
+}
+.op:hover {
+  background-color: red;
+  color: white;
+  transition: background-color .3s;
+  font-size: 17px;
+}
+
+.cuerpo-tarjeta{
+  font-size: 15px;
+  width: 220px;
+  height: 100%;
+  border: solid #282c34 1px;
+  display: grid;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 5px;
+  background-color: burlywood;
+  min-height: 10vh; 
+
+}
+.cuerpo-tarjeta:hover{
+  background-color: rgba(214, 200, 200, 0.508);
+  color: white;
+  transition: background-color .3s;
+  font-size: 17px;
+  font-size: 19px;
+}
+
+
+
+.container{
+  max-width: 1200px;
+  margin: 100px;
+  margin-left: 100px;
+  display: grid;
+  grid-gap: 1rem;
+  justify-items: center;
+  /* align-items: center; */
+  justify-content: space-evenly;
+ 
+  position: relative;
+  
+}
+@media (min-width: 600px) {
+  .container { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .container { grid-template-columns: repeat(4, 1fr); }
+}
+.name{ 
+  width: 100%;
+  height: 0;
+  padding: 0;
+}
+
+.foto{
+  max-width: 350px;
+  max-height: 240px;
+  align-self: center;
+  overflow: hidden;
+  object-fit: contain;
+  
+}
+.form {
+    /* display: grid; */
+    flex-direction: row;
+    max-width: 64%;
+    /* width: 500px; */
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 10%);
+    padding: 20px;
+    display: inline-flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: column;
+  margin-bottom: 5px;
+  display: flex;
+}
+.input{
+  width: 65%;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid #c4c4c4;
+  padding: 0 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input:hover{
+  transition: background-color .3s;
+  font-size: 15px;
+  box-shadow: 0px 0px 8px rgba(44, 13, 13, 0.1);
+}
+.inputerror{
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid #ff0000;
+  padding: 0 30px;
+  box-shadow: 0px 10px 1px rgba(7, 7, 7, 0.1);
+  background-color: red
+}
+
+.search{
+  width: 20%;
+  height: 50%;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid #868484;
+  padding: 0 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search:hover{
+  transition: background-color .3s;
+  font-size: 15px;
+}
+
+.error {
+  color: red;
+  font-size: 14.5px;
+  margin-top: 5px;
+}
+
+.btn {
+  margin-top: 15px;
+  margin-left: 150px;
+  width: 50%;
+  height: 45px;
+  background-color: #f2796e;
+  border: 2px solid #f2796e;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+.btn:hover{
+  background-color: #f0584a;
+  transition: background-color .3s;
+  font-size: 17px;
+ 
+}
+
+.barra{
+  display: grid;
+  justify-items: center;
+}
+
+.navbar{
+  background-color:#f0584a;
+
+}
+.i{
+  background: red;
+ color: white;
+ border-radius: 8px;
+ padding: 5px;
+}

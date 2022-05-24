@@ -1,0 +1,8 @@
+.label{
+    background: rgba(229, 235, 226, 0.412);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1px;
+    text-align: center;
+    border: solid grey 1px
+}

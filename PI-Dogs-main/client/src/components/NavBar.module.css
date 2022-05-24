@@ -1,0 +1,13 @@
+.conteiner{
+    width: 100%;
+    height: 80%;
+    margin: 1px;
+    background-image: url("https://thumbs.dreamstime.com/z/fondo-de-pantalla-perro-dormido-una-imagen-papel-tapiz-adorable-con-huella-202527661.jpg");
+    background-repeat: no-repeat ;
+    text-align: center;
+    min-width: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    object-fit: fill;
+}

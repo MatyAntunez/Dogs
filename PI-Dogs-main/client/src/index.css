@@ -1,0 +1,23 @@
+/* *{
+  margin:0px;
+  padding: 0px;
+} */
+body {
+  background-image: url("https://nfnatcane.es/blog/wp-content/uploads/2021/11/mastin-de-gran-tamano.jpg");
+  object-fit:cover;
+   background-size: cover;  
+  background-attachment: fixed;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background : linear-gradient(90deg, rgba(19,242,6,0.008841036414565795) 0%, rgba(2,249,113,0.5858718487394958) 100%); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* https://nfnatcane.es/blog/wp-content/uploads/2021/11/mastin-de-gran-tamano.jpg */
